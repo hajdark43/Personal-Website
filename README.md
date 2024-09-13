@@ -24,4 +24,4 @@ If you like the project, please give me star and follow me 🌼
 </a>
 
 ---
-<p align="center"> [Discord](https://discord.gg/uMt2Qr66ga)</p>
+ [Discord](https://discord.gg/uMt2Qr66ga)
