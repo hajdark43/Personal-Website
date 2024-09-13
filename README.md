@@ -1,6 +1,5 @@
 <div align="center">
     <h1>Simple Personal Website</h1>
-            <img style="display:block;margin-left:auto;margin-right:auto;width:30%;" src="https://github-readme-stats.vercel.app/api/pin/?username=hajdark43&repo=Personal-Website&theme=react">
 
 </div>
 
