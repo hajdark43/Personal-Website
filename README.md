@@ -30,7 +30,7 @@ If you like the project, please give me star and follow me 🌼
 <div align="center">
 <p align="center">
   <a href="https://discord.gg/uMt2Qr66ga" target="_blank">
-    <img alt="My Discord Server" src="https://discord.c99.nl/widget/theme-1/865630940361785345.png"  />
+<i class="fa-brands fa-discord"></i>
   </a>
 </p>
 </div>
