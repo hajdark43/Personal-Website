@@ -1,0 +1,253 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet';
+
+
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+
+:root {
+	--dk-gray-100: #F3F4F6;
+	--dk-gray-200: #E5E7EB;
+	--dk-gray-300: #D1D5DB;
+	--dk-gray-400: #9CA3AF;
+	--dk-gray-500: #6B7280;
+	--dk-gray-600: #4B5563;
+	--dk-gray-700: #374151;
+	--dk-gray-800: #1F2937;
+	--dk-gray-900: #111827;
+	--dk-dark-bg: #313348;
+	--dk-main-bg: #000000bc;
+	--dk-darker-bg: #2a2b3d;
+	--navbar-bg-color: #6f6486;
+	--sidebar-bg-color: #252636;
+	--sidebar-width: 250px;
+	--d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgba(168, 239, 255, 1);
+	--c2: rgba(168, 239, 255, 0.1);
+}
+
+.block {
+	position: relative;
+	background: linear-gradient(0deg, #00000000, #27272700);
+  }
+  
+  .block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+	  #0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+	border-radius: 10px;
+
+  }
+  
+  @keyframes steam {
+	0% {
+	  background-position: 0 0;
+	}
+	50% {
+	  background-position: 400% 0;
+	}
+	100% {
+	  background-position: 0 0;
+	}
+  }
+  
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+}
+
+#about {
+	transition: all .3s ease-in-out;
+}
+
+
+
+
+.main-box {
+	background-color: var(--dk-main-bg);
+	padding: 10px;
+	border-radius: 30px;
+}
+
+
+
+/** --------------------------------
+ -- welcome
+-------------------------------- */
+.about {
+	color: var(--dk-gray-300);
+}
+
+.about .content {
+	background-color: var(--dk-dark-bg);
+}
+
+.about p {
+	color: var(--dk-gray-400);
+}
+
+
+
+
+/** --------------------------------
+ -- Statistics
+-------------------------------- */
+.skills {
+	color: var(--dk-gray-200);
+	background-color: var(--dk-dark-bg);
+}
+
+
+.skills .box i {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.skills .box p {
+	color: var(--dk-gray-400);
+}
+
+
+
+/** --------------------------------
+ -- users
+-------------------------------- */
+.projects {
+	background-color: var(--dk-dark-bg);
+	color: var(--dk-gray-200);
+}
+.projects .box .project {
+	background: #111827;
+}
+.projects .box h3 {
+	color: var(--dk-gray-300);
+}
+
+.projects .box p {
+	color: var(--dk-gray-400)
+}
+
+
+
+::-webkit-scrollbar {
+	background: transparent;
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #3c3f58;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+#image-about img {
+	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border-radius: 50%;
+}
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 300px;
+	background: linear-gradient(0deg, #00000000, #27272700);
+	border-radius: 50px;
+  }
+  
+  .image:before, .image:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+	  #0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+	border-radius: 50%;
+
+  }
+  
+  @keyframes steam {
+	0% {
+	  background-position: 0 0;
+	}
+	50% {
+	  background-position: 400% 0;
+	}
+	100% {
+	  background-position: 0 0;
+	}
+  }
+  
+  .block:after {
+	filter: blur(50px);
+  }
+@media (max-width: 1883px) {
+	#test {
+		min-height: 10vh;
+	}
+}
+.show a{
+	text-decoration: none;
+	color: #0051ff;
+}
+.show a:hover{
+	transition: 1s;
+	text-decoration: none;
+	color: #00eeff;
+}
+.tag span{
+	background: #0051ff;
+	border-radius: 30px;
+	padding: 4px;
+	font-size: small;
+	text-align: center;
+}
