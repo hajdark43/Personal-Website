@@ -28,10 +28,16 @@ If you like the project, please give me star and follow me 🌼
  <a href="https://discord.gg/uMt2Qr66ga" style="text-decoration:none;">
   Discord
 </a>
+<p>
+    •
+</p>
 <a href="https://youtube.com/@realhajdark" style="text-decoration:none;">
-  • YouTube
+  YouTube
 </a>
+<p>
+    •
+</p>
 <a href="https://instagram.com/hajdark.ir" style="text-decoration:none;">
-  • Instagram
+Instagram
 </a>
 </div>
