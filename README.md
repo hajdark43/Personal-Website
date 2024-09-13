@@ -25,5 +25,5 @@ If you like the project, please give me star and follow me 🌼
 
 ---
 <div align="center">
- [Discord](https://discord.gg/uMt2Qr66ga)
+ [Discord] (https://discord.gg/uMt2Qr66ga)
 </div>
