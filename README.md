@@ -24,13 +24,4 @@ If you like the project, please give me star and follow me 🌼
 </a>
 
 ---
-
-## Contact
-
-<div align="center">
-<p align="center">
-  <a href="https://discord.gg/uMt2Qr66ga" target="_blank">
-      <img style="width:10%;" src="https://cdn.discordapp.com/attachments/985649686885068891/1284132768787468339/free-discord-3d-icon-download-in-png-blend-fbx-gltf-file-formats--logo-app-social-media-pack-logos-icons-5753425.png?ex=66e58556&is=66e433d6&hm=10e7ca5d6debc6118579bd5bdff8ab6f81634ef54f6466af8bec350ec3427c67&"> </img>
-  </a>
-</p>
-</div>
+<p align="center"> [Discord](https://discord.gg/uMt2Qr66ga)</p>
