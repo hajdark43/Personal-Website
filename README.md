@@ -14,9 +14,6 @@ This simple personal website is made with ❤
 
 If you like the project, please give me star and follow me 🌼
 
-<a href="http://hajdark.rf.gd">
-  Live Demo
-</a>
 
 ---
 <div align="center">
